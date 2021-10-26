@@ -7666,8 +7666,25 @@ html {
     font-size: 12px;
     margin-bottom: 0; }
 
+
+
+    /* .project-thumbnail{
+      opacity: 1;
+      display: block;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    } */
+
+    /* .project-thumbnail:hover{
+    filter: grayscale(100%);
+    } */
+
+    
+
+
 .team-section {
-  background-color: #050605; }
+  background-color: #050605;
+height: 80vh; }
   .team-section .section-title {
     color: #fff;
     margin-top: 40px;
@@ -7975,6 +7992,27 @@ html {
       text-decoration: none;
       color: black;
     }
+
+
+  
+    @media only screen and (min-width: 800px) {
+      .header{
+        height: 80vh;
+      }
+    }
+
+    .intro-subtitle {
+      font-size: 1.5rem;
+      font-weight: 300;
+    }
+
+    .text-slider-items {
+      display: none;
+    }
+
+
+
+
 
 
     
