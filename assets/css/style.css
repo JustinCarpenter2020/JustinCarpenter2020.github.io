@@ -7668,16 +7668,17 @@ html {
 
 
 
-    /* .project-thumbnail{
+    .project-thumbnail{
       opacity: 1;
       display: block;
       transition: .5s ease;
       backface-visibility: hidden;
-    } */
+    }
 
-    /* .project-thumbnail:hover{
-    filter: grayscale(100%);
-    } */
+    .project-thumbnail:hover{
+    filter: grayscale(80%);
+    cursor: pointer;
+    }
 
     
 
@@ -7873,8 +7874,8 @@ height: 80vh; }
     margin-bottom: 25px; }
     @media (min-width: 768px) {
       .blog-post-archive .blog-post-thumbnail {
-        width: 168px;
-        height: 141px;
+        width: 200px;
+        height: 190px;
         margin-right: 25px;
         align-self: center; } }
   .blog-post-archive .blog-post-title {
