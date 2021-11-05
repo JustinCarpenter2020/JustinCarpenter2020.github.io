@@ -242,7 +242,7 @@
                 </div>
                 <div class="col-md-6 project-column-indented">
                     <div class="project-card wow fadeInUp">
-                        <img src="assets/images/Works3.png" alt="Project" class="project-thumbnail">
+                        <img data-toggle="modal" data-target="#hauntedHighwayModal" src="assets/images/Works3.png" alt="Project" class="project-thumbnail">
                         <h6 class="project-title">Haunted Highway</h6>
                         <p class="Project-category">A Personal Guide To Haunted Locations </p>
                     </div>
@@ -282,31 +282,9 @@
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="team-card" data-animation="animated fadeInRight">
-                                            <img src="assets/images/trees.jpg" alt="trees" class="team-member-thumbnail">
+                                            <img src="assets/images/trees.jpg" alt="trees" class="team-member-thumbnail darken">
                                             <div class="team-member-details">
-                                                <h6 class="team-member-name">Paulina Gayoso</h6>
-                                                <p class="team-member-title">Project Manager</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- <div class="col-sm-6">
-                                        <div class="team-card featured" data-animation="animated flipInY">
-                                            <img src="assets/images/img_4.png" alt="Edwards" class="team-member-thumbnail">
-                                            <div class="team-member-details">
-                                                <h6 class="team-member-name">Edwards</h6>
-                                                <p class="team-member-title">CTO, Co-Founder</p>
-                                            </div>
-                                        </div>
-                                    </div> -->
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <div class="team-card" data-animation="animated fadeInRight">
-                                            <img src="assets/images/trees.jpg" alt="trees" class="team-member-thumbnail">
-                                            <div class="team-member-details">
-                                                <h6 class="team-member-name">Paulina Gayoso</h6>
+                                                <h6 class="team-member-name">Brittany Ohnsman</h6>
                                                 <p class="team-member-title">Project Manager</p>
                                             </div>
                                         </div>
@@ -317,10 +295,23 @@
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="team-card" data-animation="animated fadeInRight">
-                                            <img src="assets/images/trees.jpg" alt="trees" class="team-member-thumbnail">
+                                            <img src="assets/images/trees2.jpg" alt="trees" class="team-member-thumbnail darken">
+                                            <div class="team-member-details">
+                                                <h6 class="team-member-name">Jake Overall</h6>
+                                                <p class="team-member-title">Project Manager</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="team-card" data-animation="animated fadeInRight">
+                                            <img src="assets/images/trees3.jpg" alt="trees" class="team-member-thumbnail darken">
                                             <div class="team-member-details">
                                                 <h6 class="team-member-name">Paulina Gayoso</h6>
-                                                <p class="team-member-title">Project Manager</p>
+                                                <p class="team-member-title">Former Student</p>
                                             </div>
                                         </div>
                                     </div>
@@ -399,6 +390,37 @@
                       </div>
                       <div class="col-12 text-center">
                           <a target="_blank" href="https://justincarpentertower.herokuapp.com/#/">
+                            <button type="button" class="btn btn-primary">Visit The Live Site</button>
+                        </a>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal fade " id="hauntedHighwayModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Haunted Highway</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body container-fluid">
+                  <div class="row">
+                      <div class="col-12 mb-4">
+                          <img class="img-fluid modal-image-height" src="./assets/images/tower.png" alt="">
+                      </div>
+                      <div class="col-12">
+                          <p>Haunted Highway is an app for traveling to some of the US's most haunted locations. Planning on taking a roadtrip? Why not make it horror themed with over 10,000 haunted locations to see. Given a starting and ending location this app will return all the haunted locations along the way. If real ghosts aren't quite your thing don't worry haunted highway has you covered. Pick from a large selection of themed trips that visit your favorite movie/tv filming locations!</p>
+                      </div>
+                      <div class="col-12 my-4">
+                          <p> <b>utilizes:</b> Vue, Node.js, MongoDb, Auth0, Mapbox </p>
+                      </div>
+                      <div class="col-12 text-center">
+                          <a target="_blank" href="">
                             <button type="button" class="btn btn-primary">Visit The Live Site</button>
                         </a>
                       </div>

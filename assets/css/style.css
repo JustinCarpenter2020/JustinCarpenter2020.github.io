@@ -8014,7 +8014,9 @@ height: 80vh; }
     /* .modal-image-height{
       height: 30vh;
     } */
-
+    .darken{
+      filter: brightness(75%)
+    }
 
 
 
