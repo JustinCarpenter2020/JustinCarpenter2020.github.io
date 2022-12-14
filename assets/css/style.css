@@ -7673,7 +7673,7 @@ html {
       display: block;
       transition: .5s ease;
       backface-visibility: hidden;
-      height: 50vh;
+      height: 35vh;
       object-fit: contain;
     }
 
